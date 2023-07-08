@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30vh;
+}
+.header{
+    flex: 1;
+    display: block;
+    justify-content: right;
+    align-items: center;
+    padding: 20vh 10vh 0 20vh;
+}
+.heading_title{
+    color: #000;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.heading_description{
+    color: #000;
+    text-align: right;
+    margin-top: 0 4vw;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 3vw 0vw;
+}
+.button_pramary{
+    font-family: Work Sans;
+    font-size: 20px;
+    display: flex;    
+    align-items: right;
+    float: right;
+    color: #FFF;
+    background-color: #F15B22;
+    padding: 1vw 3vw;
+    border: 0;
+    border-radius: 5px;
+}
+.button_pramary:hover{
+    font-family: Work Sans;
+    font-size: 20px;
+    display: flex;    
+    align-items: right;
+    float: right;
+    color: #F15B22;
+    background-color: #FFF;
+    padding: 1vw 3vw;
+    border: 0;
+    border-radius: 5px;
+}
+.description{
+    height: 100vh;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+.photo_profile{
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_description{
+    flex: 1;
+}
+
+.photo_profile img{
+    width: 30vw;
+}
+.description_title{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.description_info{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 3vh;
+}
+ol{
+    margin-top: 5vh;
+}
+li{
+    color:#444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: square;
+}
+li>img{
+    width: 1vw;
+}
+.my_plan_text{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10vh;
+    text-align: center;
+}
+.plan_section{
+    height: 100vh;
+}
+.plan_img{
+    width: 3vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.plan_title{
+    color:#151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.plan_info{
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    margin: 7vh 5vw;
+}
+.plan_sec{
+    display: block;
+}
+/* .call_section{
+    margin: 10vh;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-image: url('images/watch.png');
+    border-radius: 15px;
+    display: flex;
+} */
+.call_section {
+    margin: 10vh;
+    height: 40vh;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    background-image: linear-gradient(90deg,#F15B22 0%, rgba(241,91,34,0.00)100%), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text_call{
+    flex: 1;
+    margin: 1vh;
+    padding-left: 5vw;
+    display: block;
+    align-items: center;
+}
+.text_null{
+    flex: 1;
+}
+.call_title{
+    z-index: 1;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 4vh 2vh;
+    opacity: 1;
+}
+.call_btn{
+    font-family: Work Sans;
+    font-size: 20px;
+    display: flex;    
+    color: #F15B22;
+    background-color: #fff;
+    padding: 1vw 3vw;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 2vh;
+}
+.call_btn:hover{
+    font-family: Work Sans;
+    font-size: 20px;
+    display: flex;    
+    color: #FFF;
+    background-color: #F15B22;
+    padding: 1vw 3vw;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 2vh;
+}
+footer{
+    height: 70vh;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer_title{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text_div_footer{
+    flex: 1;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10vh;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer_info{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-weight: 400;
+    line-height: 26px;
+    width: 70%;
+}
+.social_icon{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.icon{
+    width: 3vw;
+    margin: 1vh;
+}
+.subscribe_div_footer{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vh;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.subscribe_Text_footer{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#email{
+    border: 2px white solid;
+    border-radius: 8px;
+    background: #00000000;
+    padding: 2vh 4vw;
+    align-items: flex-end;
+    float: right;
+    width: 20vw;
+    color: white;
+}
+
+.subscribe_buttion_footer{
+    font-family: Work Sans;
+    font-size: 20px;
+    display: flex;    
+    align-items: right;
+    float: right;
+    color: #000;
+    background-color: #FFF;
+    padding: 1vw 3vw;
+    border: 0;
+    display: block;
+    margin-top: 4vh;
+    border-radius: 5px;
+}
+.subscribe_buttion_footer:hover{
+    font-family: Work Sans;
+    font-size: 20px;
+    display: flex;    
+    align-items: right;
+    float: right;
+    color: #000;
+    background-color: rgba(255, 255, 0, 0.758);
+    padding: 1vw 3vw;
+    border: 0;
+    border-radius: 5px;
+}
